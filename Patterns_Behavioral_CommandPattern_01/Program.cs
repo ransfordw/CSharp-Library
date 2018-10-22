@@ -6,16 +6,38 @@ using System.Threading.Tasks;
 
 namespace Patterns_Behavioral_CommandPattern_01
 {
-    class Program
+    /* The test class or client */
+    internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] arguments)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            string argument = arguments.Length > 0 ? arguments[0].ToUpper() : null;
+            argument = "ON";
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            ISwitchable lamp = new Light();
+
+            // Pass reference to the lamp instance to each command
+            ICommand switchClose = new CloseSwitchCommand(lamp);
+            ICommand switchOpen = new OpenSwitchCommand(lamp);
+
+            // Pass reference to instances of the Command objects to the switch
+            Switch @switch = new Switch(switchClose, switchOpen);
+
+            if (argument == "ON")
+            {
+                // Switch (the Invoker) will invoke Execute() on the command object.
+                @switch.Open();
+            }
+            else if (argument == "OFF")
+            {
+                // Switch (the Invoker) will invoke the Execute() on the command object.
+                @switch.Close();
+            }
+            else
+            {
+                Console.WriteLine("Argument \"ON\" or \"OFF\" is required.");
+            }
+            Console.ReadLine();
         }
     }
 }
