@@ -1,0 +1,1 @@
+﻿Taken from: https://airbrake.io/blog/design-patterns/behavioral-command-design-pattern

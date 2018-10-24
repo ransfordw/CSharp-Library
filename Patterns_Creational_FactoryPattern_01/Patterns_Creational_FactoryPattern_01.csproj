@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D81462C-B994-48B4-B40A-5CF023FE7402}</ProjectGuid>
+    <ProjectGuid>{CCA7BC69-444A-4834-8E9F-DD024078CF25}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Patterns_Behavioral_CommandPattern_01</RootNamespace>
-    <AssemblyName>Patterns_Behavioral_CommandPattern_01</AssemblyName>
+    <RootNamespace>Patterns_Creational_FactoryPattern_01</RootNamespace>
+    <AssemblyName>Patterns_Creational_FactoryPattern_01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CloseSwitchCommand.cs" />
-    <Compile Include="ICommand.cs" />
-    <Compile Include="ISwitchable.cs" />
-    <Compile Include="Light.cs" />
-    <Compile Include="OpenSwitchCommand.cs" />
+    <Compile Include="Bike.cs" />
+    <Compile Include="ConcreteVehicleFactory.cs" />
+    <Compile Include="IFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Switch.cs" />
+    <Compile Include="Scooter.cs" />
+    <Compile Include="VehicleFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
