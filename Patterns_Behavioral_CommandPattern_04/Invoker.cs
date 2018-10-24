@@ -13,18 +13,18 @@ namespace Patterns_Behavioral_CommandPattern_04
 
         public Invoker(ICommand actionOne, ICommand actionTwo)
         {
-            this._actionOne = actionOne;
-            this._actionTwo = actionTwo;
+            _actionOne = actionOne;
+            _actionTwo = actionTwo;
         }
 
         public void ActionOneComplete()
         {
-            this._actionOne.Execute();
+            _actionOne.Execute();
         }
 
         public void ActionTwoComplete()
         {
-            this._actionTwo.Execute();
+            _actionTwo.Execute();
         }
     }
 }
