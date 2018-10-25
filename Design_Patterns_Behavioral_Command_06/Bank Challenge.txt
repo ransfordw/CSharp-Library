@@ -1,0 +1,8 @@
+﻿Komodo would like to have an app that allows for employees to keep track 
+of their personal finances.
+
+They would like to be able to get their balance, 
+withdraw from that balance, and make a deposit into that balance.
+
+They want multiple different users to be able to keep 
+track of their own accounts. 

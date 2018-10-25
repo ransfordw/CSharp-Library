@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns_Behavioral_CommandPattern_02
+namespace Design_Patterns_Behavioral_Command_02
 {
     internal enum Status
     {

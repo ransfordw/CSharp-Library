@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns_Creational_FactoryPattern_02
+namespace Design_Patterns_Creational_Factory_02
 {
     public interface IAves
     {

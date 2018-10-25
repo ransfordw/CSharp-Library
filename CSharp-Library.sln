@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Behavioral_CommandPattern_01", "Patterns_Behavioral_CommandPattern_01\Patterns_Behavioral_CommandPattern_01.csproj", "{0D81462C-B994-48B4-B40A-5CF023FE7402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_01", "Patterns_Behavioral_CommandPattern_01\Design_Patterns_Behavioral_Command_01.csproj", "{0D81462C-B994-48B4-B40A-5CF023FE7402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Behavioral_CommandPattern_02", "Patterns_Behavioral_CommandPattern_02\Patterns_Behavioral_CommandPattern_02.csproj", "{D1A8BEC6-DA78-4B26-8087-63303D5282C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_02", "Patterns_Behavioral_CommandPattern_02\Design_Patterns_Behavioral_Command_02.csproj", "{D1A8BEC6-DA78-4B26-8087-63303D5282C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Behavioral_CommandPattern_03", "Patterns_Behavioral_CommandPattern_03\Patterns_Behavioral_CommandPattern_03.csproj", "{A282EEE4-490A-4096-84D9-FB8EADFAF184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_03", "Patterns_Behavioral_CommandPattern_03\Design_Patterns_Behavioral_Command_03.csproj", "{A282EEE4-490A-4096-84D9-FB8EADFAF184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Behavioral_CommandPattern_04", "Patterns_Behavioral_CommandPattern_04\Patterns_Behavioral_CommandPattern_04.csproj", "{3659284D-791F-4C3B-97A9-85836F7DD85F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_04", "Patterns_Behavioral_CommandPattern_04\Design_Patterns_Behavioral_Command_04.csproj", "{3659284D-791F-4C3B-97A9-85836F7DD85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Creational_FactoryPattern_01", "Patterns_Creational_FactoryPattern_01\Patterns_Creational_FactoryPattern_01.csproj", "{CCA7BC69-444A-4834-8E9F-DD024078CF25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Creational_Factory_01", "Patterns_Creational_FactoryPattern_01\Design_Patterns_Creational_Factory_01.csproj", "{CCA7BC69-444A-4834-8E9F-DD024078CF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns_Creational_FactoryPattern_02", "Patterns_Creational_FactoryPattern_02\Patterns_Creational_FactoryPattern_02.csproj", "{0736B8EF-987B-422E-9263-AFB5EA25E601}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Creational_Factory_02", "Patterns_Creational_FactoryPattern_02\Design_Patterns_Creational_Factory_02.csproj", "{0736B8EF-987B-422E-9263-AFB5EA25E601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_05", "Design_Patterns_Behavioral_Command_05\Design_Patterns_Behavioral_Command_05.csproj", "{2D8897FC-2EC9-48E6-A7E1-083B940AE425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Patterns_Behavioral_Command_06", "Design_Patterns_Behavioral_Command_06\Design_Patterns_Behavioral_Command_06.csproj", "{75B8FD0A-9AD6-41B1-A210-E1692B826F68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{0736B8EF-987B-422E-9263-AFB5EA25E601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0736B8EF-987B-422E-9263-AFB5EA25E601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0736B8EF-987B-422E-9263-AFB5EA25E601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8897FC-2EC9-48E6-A7E1-083B940AE425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8897FC-2EC9-48E6-A7E1-083B940AE425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8897FC-2EC9-48E6-A7E1-083B940AE425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8897FC-2EC9-48E6-A7E1-083B940AE425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B8FD0A-9AD6-41B1-A210-E1692B826F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B8FD0A-9AD6-41B1-A210-E1692B826F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B8FD0A-9AD6-41B1-A210-E1692B826F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B8FD0A-9AD6-41B1-A210-E1692B826F68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

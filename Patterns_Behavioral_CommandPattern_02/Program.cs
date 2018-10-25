@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Patterns_Behavioral_CommandPattern_02
+namespace Design_Patterns_Behavioral_Command_02
 {
     public class Program
     {

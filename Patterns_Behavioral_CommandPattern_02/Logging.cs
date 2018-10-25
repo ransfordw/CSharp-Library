@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Patterns_Behavioral_CommandPattern_02
+namespace Design_Patterns_Behavioral_Command_02
 {
     /// <summary>
     /// Houses all logging methods for various debug outputs.

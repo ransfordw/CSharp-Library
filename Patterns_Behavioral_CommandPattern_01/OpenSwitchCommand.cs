@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns_Behavioral_CommandPattern_01
+namespace Design_Patterns_Behavioral_Command_01
+
 {
     /* The Command for turning on the device - ConcreteCommand #2 */
     public class OpenSwitchCommand : ICommand

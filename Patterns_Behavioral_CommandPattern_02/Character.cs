@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns_Behavioral_CommandPattern_02
+namespace Design_Patterns_Behavioral_Command_02
 {
     /// <summary>
     /// Stores basic character information, including statistics.

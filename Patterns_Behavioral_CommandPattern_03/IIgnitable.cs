@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns_Behavioral_CommandPattern_03
+namespace Design_Patterns_Behavioral_Command_03
 {
     public interface IIgnitable
     {
