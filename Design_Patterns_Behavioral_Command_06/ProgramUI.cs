@@ -38,8 +38,9 @@ namespace Design_Patterns_Behavioral_Command_06
             _withdraw = new WithdrawFromAccount(_newAccount, _clientBalance);
             _deposit = new DepositToAccount(_newAccount, _clientBalance);
             _invoker = new AccountInvoker(_seeBalance, _withdraw, _deposit);
+
             Console.WriteLine($"Welcome {clientName} To Account Manager!" +
-                $"\n\n\tPress any key to continue...");
+                $"\n\nPress any key to continue...");
             Console.ReadKey();
             var response = true;
             while (response)
@@ -66,10 +67,7 @@ namespace Design_Patterns_Behavioral_Command_06
                         _invoker.Deposit(deposit);
                         break;
                     case 3:
-                        decimal withdrawl = 0m;
-                        Console.WriteLine($"How much will you withdraw?");
-                        withdrawl = decimal.Parse(Console.ReadLine());
-                        _invoker.Withdraw(withdrawl);
+                        UIWithdraw();
                         break;
                     case 4:
                         Console.WriteLine("We apologize. This feature is not yet available.");
@@ -82,6 +80,13 @@ namespace Design_Patterns_Behavioral_Command_06
                         break;
                 }
             }
+        }
+
+        private void UIWithdraw()
+        {
+            Console.Write("How much will you be withdrawing?\n$");
+            decimal withdrawl = decimal.Parse(Console.ReadLine());
+            _invoker.Withdraw(withdrawl);
         }
     }
 }
