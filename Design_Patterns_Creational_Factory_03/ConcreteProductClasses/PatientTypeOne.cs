@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns_Creational_Factory_03
+namespace Design_Patterns_Creational_Factory_03.ConcreteProductClasses
 {
-    class PatientTypeTwo : IPatient
+    class PatientTypeOne : IPatient
     {
         public string Name { get; set; }
         public int Age { get; set; }
@@ -23,12 +23,12 @@ namespace Design_Patterns_Creational_Factory_03
 
         public void TakeMeds()
         {
-            Console.WriteLine("The patient takes their prescribed medication.");
+            Console.WriteLine("The patient's parent administers their prescribed medication");
         }
 
         public void VisitDoctor()
         {
-            Console.WriteLine("The patient visits their family doctor.");
+            Console.WriteLine("The patient visits their pediatritian.");
         }
     }
 }

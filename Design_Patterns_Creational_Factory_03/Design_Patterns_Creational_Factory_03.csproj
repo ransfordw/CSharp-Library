@@ -46,9 +46,9 @@
     <Compile Include="IPatient.cs" />
     <Compile Include="NewPatientFactory.cs" />
     <Compile Include="NewPatientSignUp.cs" />
-    <Compile Include="PatientTypeOne.cs" />
-    <Compile Include="PatientTypeThree.cs" />
-    <Compile Include="PatientTypeTwo.cs" />
+    <Compile Include="ConcreteProductClasses\PatientTypeOne.cs" />
+    <Compile Include="ConcreteProductClasses\PatientTypeThree.cs" />
+    <Compile Include="ConcreteProductClasses\PatientTypeTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -18,6 +18,9 @@ namespace Design_Patterns_Creational_Factory_03
             Console.ReadLine();
         }
 
+        #region Factory Resources
+
+        //These methods retrieve parameters from the user to package and send to the factory.
         public string GetPatientName()
         {
             Console.Write("Enter patient name:");
@@ -50,5 +53,6 @@ namespace Design_Patterns_Creational_Factory_03
                 isDiabetic = false;
             return isDiabetic;
         }
+        #endregion
     }
 }

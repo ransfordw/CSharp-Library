@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns_Creational_Factory_03
 {
+    //This is the Product Interface. It determines what properties and methods each Concrete Product will need to express.
    public interface IPatient
     {
         string Name { get; set; }
