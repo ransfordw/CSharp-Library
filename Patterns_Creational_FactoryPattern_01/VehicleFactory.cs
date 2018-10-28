@@ -11,6 +11,6 @@ namespace Design_Patterns_Creational_Factory_01
     /// </summary>
     public abstract class VehicleFactory
     {
-        public abstract IFactory GetVehicle(string vehicle);
+        public abstract IVehicle GetVehicle(string vehicle);
     }
 }

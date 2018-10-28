@@ -8,7 +8,7 @@ namespace Design_Patterns_Creational_Factory_01
 {
     public class ConcreteVehicleFactory : VehicleFactory
     {
-        public override IFactory GetVehicle(string vehicle)
+        public override IVehicle GetVehicle(string vehicle)
         {
             switch (vehicle)
             {

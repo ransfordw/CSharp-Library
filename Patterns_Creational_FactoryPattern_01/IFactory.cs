@@ -9,7 +9,7 @@ namespace Design_Patterns_Creational_Factory_01
     /// <summary>
     /// Product Interface
     /// </summary>
-    public interface IFactory
+    public interface IVehicle
     {
         void Drive(int miles);
     }

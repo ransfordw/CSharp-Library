@@ -9,7 +9,7 @@ namespace Design_Patterns_Creational_Factory_01
     /// <summary>
     /// A ConcreteProduct class
     /// </summary>
-    public class Bike : IFactory
+    public class Bike : IVehicle
     {
         public void Drive(int miles)
         {
