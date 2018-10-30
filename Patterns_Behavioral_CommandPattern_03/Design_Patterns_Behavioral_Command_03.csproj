@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A282EEE4-490A-4096-84D9-FB8EADFAF184}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Patterns_Behavioral_CommandPattern_03</RootNamespace>
-    <AssemblyName>Patterns_Behavioral_CommandPattern_03</AssemblyName>
+    <RootNamespace>Design_Patterns_Behavioral_Command_03</RootNamespace>
+    <AssemblyName>Design_Patterns_Behavioral_Command_03</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

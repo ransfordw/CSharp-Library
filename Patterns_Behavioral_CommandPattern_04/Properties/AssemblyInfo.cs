@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Patterns_Behavioral_CommandPattern_04")]
+[assembly: AssemblyTitle("Design_Patterns_Behavioral_Command_04")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Patterns_Behavioral_CommandPattern_04")]
+[assembly: AssemblyProduct("Design_Patterns_Behavioral_Command_04")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

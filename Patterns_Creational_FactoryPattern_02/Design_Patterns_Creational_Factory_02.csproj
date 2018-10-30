@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0736B8EF-987B-422E-9263-AFB5EA25E601}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Patterns_Creational_FactoryPattern_02</RootNamespace>
-    <AssemblyName>Patterns_Creational_FactoryPattern_02</AssemblyName>
+    <RootNamespace>Design_Patterns_Creational_Factory_02</RootNamespace>
+    <AssemblyName>Design_Patterns_Creational_Factory_02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
